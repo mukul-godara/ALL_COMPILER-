@@ -15,6 +15,7 @@ metadata:
   namespace: ingress-nginx
 automountServiceAccountToken: true
 ---
+
 # Source: ingress-nginx/templates/controller-configmap.yaml
 apiVersion: v1
 kind: ConfigMap
